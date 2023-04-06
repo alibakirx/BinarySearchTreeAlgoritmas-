@@ -1,23 +1,23 @@
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız
 
 Adım 1: Dizinin ilk elemanı yani 7 kök değerimiz olsun. Diğer elemanları ağacımıza eklemeye başlayalım.
-Adım 2: 5 sayısı 7 sayısından küçük olduğu için 7 nin soluna gelir.     7
+Adım 2: 5 sayısı 7 sayısından küçük olduğu için 7 nin soluna gelir.     		      7
 											     /
  											    5
 
-Adım 3: 1 sayısı 7 sayısından ve 5 sayısından küçük olduğu için en sol kısma gelir.     7
+Adım 3: 1 sayısı 7 sayısından ve 5 sayısından küçük olduğu için en sol kısma gelir.     			    7
 														   /
 													 	  5
 														 /
 														1
 
-Adım 4: 8 sayısı 7 sayısından büyük olduğu için 7 sayısının sağına gelir.         7
+Adım 4: 8 sayısı 7 sayısından büyük olduğu için 7 sayısının sağına gelir.         			    7
 													   / \
 												 	  5   8
 													 /
 													1
 Adım 5: 3 sayısı 7 sayısından ve 5 sayısından küçük ama 1 sayısından büyük olduğu için 1 sayısının sağına gelir.
-												          7
+												            7
 													   / \
 												 	  5   8
 													 / 
@@ -26,7 +26,7 @@ Adım 5: 3 sayısı 7 sayısından ve 5 sayısından küçük ama 1 sayısından
 													  3
    
 Adım 6: 6 sayısı 7 sayısından küçük 5 sayısından büyük olduğu için 5 sayısının sağına gelir.
-										                      7
+										                    	    7
 													   / \
 												 	 5    8
 													/ \
@@ -37,7 +37,7 @@ Adım 6: 6 sayısı 7 sayısından küçük 5 sayısından büyük olduğu için
 														
 
 Adım 7: 0 sayısı 7,5 ve 1 sayısından küçük olduğu için en son kısma gelir.
-													    7								                      7
+													    7								                      
 													   / \
 												 	 5    8
 													/ \
@@ -48,7 +48,7 @@ Adım 7: 0 sayısı 7,5 ve 1 sayısından küçük olduğu için en son kısma g
 										                 
 Adım 8: 9 sayısı 7 ve 8 sayısından büyük olduğu için en sağ kısma gelir.
 							                        
-    												  	    7													    7								                      7
+    												  	    7													    								                      
 													   / \
 												 	 5    8
 													/ \     \
@@ -61,7 +61,7 @@ Adım 8: 9 sayısı 7 ve 8 sayısından büyük olduğu için en sağ kısma gel
 Adım 9: 4 sayısı 7,5 sayısından küçük 1 ve 3 sayısından büyük olduğu için 3 sayısının sağına gelir.
 															
 																					                        
-    												  	    7													    7								                      7
+    												  	    7													    								                      
 													   / \
 												 	 5    8
 													/ \     \
@@ -73,7 +73,7 @@ Adım 9: 4 sayısı 7,5 sayısından küçük 1 ve 3 sayısından büyük olduğ
 Adım 10: 2 sayısı 7 ve 5 sayısından küçük 1 sayısından büyük ve 3 sayısından küçük olduğu için 3 sayısının soluna gelir.
 
 													   								                        
-    												  	    7													    7								                      7
+    												  	    7													    								                     
 													   / \
 												 	 5    8
 													/ \     \
